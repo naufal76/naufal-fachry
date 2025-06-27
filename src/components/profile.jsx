@@ -33,7 +33,7 @@ export default function Profile() {
         </div>
        <div className={`flex flex-col mb-5 justify-center text-center fade-in ${isVisible[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-900`}>
         <h1 className="text-5xl font-bold mt-8 mb-2">Naufal Fachry Abdullah</h1>
-        <p className="text-lg text-gray-500">Passionate Graphic Designer & Content Creation</p>
+        <p className="text-lg text-gray-500">Graphic Designer & Content Creation</p>
       </div>
 
       {/* About Me */}

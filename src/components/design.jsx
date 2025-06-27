@@ -34,16 +34,44 @@ export default function Design() {
 
       {/* Grid Gambar */}
       <div className="grid grid-cols-1 gap-6 md:grid-cols-4">
-        {images.map((item, index) => (
-          <img
-            key={index}
-            src={item.src}
-            alt={item.title}
-            className="w-full h-70 object-cover rounded-lg cursor-pointer transition duration-300 hover:scale-105"
-            onClick={() => openPopup(index)}
-          />
-        ))}
+              <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/202910957?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/156907507?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/156920505?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/166945255?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/167036619?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/167136623?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/229085937?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/175892999?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/202069579?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/229086083?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/229086311?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
+             <div className="w-full overflow-hidden rounded-lg cursor-pointer transition duration-300 hover:scale-105">
+                  <iframe src="https://www.behance.net/embed/project/166947011?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0"  scrolling="no" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+             </div>
       </div>
+  
 
       {/* Pop-up Modal dengan Carousel & Scroll */}
       {selectedIndex !== null && (

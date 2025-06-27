@@ -5,6 +5,7 @@ import Design from "./design";
 import Photography from "./photography";
 
 
+
 const Content = ({ color }) => {
   const [openTab, setOpenTab] = useState(1);
 
@@ -69,6 +70,7 @@ const Content = ({ color }) => {
               </button>
             </li>
             
+            
           </ul>
 
           {/* Konten Tab */}
@@ -84,7 +86,7 @@ const Content = ({ color }) => {
                 <div className={openTab === 3 ? "block" : "hidden"}>
                   <Photography />
                 </div>
-               
+                
               </div>
             </div>
           </div>

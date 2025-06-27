@@ -1,12 +1,25 @@
+
+
 export function Herosection() {
   return (
-    <div className="w-screen h-screen flex flex-col justify-center bg-[url('/assets/hero-3.jpg')] bg-cover bg-center bg-fixed text-white text-center px-4">
-      <h1 className="text-xl font-bold mb-4 drop-shadow-[3px_3px_10px_rgba(0,0,0,0.8)]">
-        Let's create something
-      </h1>
-      <p className="text-lg text-gray-300 mb-6 drop-shadow-md">
-        Designing visuals that speak louder than words
+
+ <div className="w-screen h-screen flex flex-col justify-center bg-[url('/assets/hero.png')] bg-cover bg-center bg-fixed text-white">
+    <div className="container mx-auto px-10">
+      <h2 className="font-bold text-5xl lg:text-9xl ">
+        Let's create
+      </h2>
+      <h2 className="text-5xl lg:text-9xl font-bold mb-4">
+        something
+      </h2>
+      <p className=" text-gray-300  drop-shadow-md text-base sm:text-lg md:text-xl lg:text-2xl">
+        Designing visuals that speak
+      </p>
+      <p className=" text-gray-300 mb-6 drop-shadow-md text-base sm:text-lg md:text-xl lg:text-2xl">
+        louder than words
       </p>
     </div>
+     
+    </div>
+
   );
 }

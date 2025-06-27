@@ -3,15 +3,15 @@ import { useState } from "react";
 export default function Photography() {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const photoItems = [
-    { title: "Chilling with Friend", src: "/assets/cafe.jpg", description: "Bersantai di cafe dengan teman-teman." },
-    { title: "Our Coffee", src: "/assets/coffee-2.jpg", description: "Aroma kopi yang khas dan menggugah selera." },
-    { title: "Gunung Berkabut", src: "/assets/leaf.jpg", description: "Gunung berkabut yang terlihat misterius di pagi hari." },
-    { title: "Danau Tenang", src: "/assets/shadow.jpg", description: "Air danau yang tenang dengan refleksi alam sekitar." },
-    { title: "Perkotaan Malam", src: "/assets/flower.jpg", description: "Cahaya kota di malam hari yang penuh gemerlap." },
-    { title: "Jalan Pedesaan", src: "/assets/kartini.jpg", description: "Jalan kecil di desa dengan hamparan sawah di kanan dan kiri." },
-    { title: "Perkotaan Malam", src: "/assets/keychain.jpg", description: "Cahaya kota di malam hari yang penuh gemerlap." },
-    { title: "Jalan Pedesaan", src: "/assets/cookies.jpg", description: "Jalan kecil di desa dengan hamparan sawah di kanan dan kiri." },
-     { title: "Jalan Pedesaan", src: "/assets/rain-leaf.jpg", description: "Jalan kecil di desa dengan hamparan sawah di kanan dan kiri." },
+    { title: "Chilling with Friend", src: "/assets/cafe.jpg", description: "Ngopi santai di kafe bareng teman-teman—tempat di mana obrolan random bisa berubah jadi ide brilian." },
+    { title: "Our Coffee", src: "/assets/coffee-2.jpg", description: "Kopi dulu, cerita menyusul, karena setiap tegukan punya kisah yang layak ditunggu." },
+    { title: "Sunset and Leaf", src: "/assets/leaf.jpg", description: "Lembutnya cahaya sore memeluk tekstur daun, menciptakan harmoni warna yang tak tertangkap oleh kata." },
+    { title: "Senyap di Antara Cahaya", src: "/assets/shadow.jpg", description: "Tersapu cahaya senja, daun-daun membisikkan keheningan—sejenak waktu berhenti, membiarkan visual berbicara lebih dari kata." },
+    { title: "Snag Kembang", src: "/assets/flower.jpg", description: "Putih bersihnya menyapa lembut, sekilas pesona yang tawarkan kedamaian" },
+    { title: "Jejak Kartini dalam Senyum Hari Ini", src: "/assets/kartini.jpg", description: "Jenuh senyum dan kebanggaan, momen ini memaknai semangat Kartini sebagai simbol kekuatan, keanggunan, dan harapan perempuan masa kini.." },
+    { title: "IELC Merchandise", src: "/assets/keychain.jpg", description: "" },
+    { title: "K'rara Foto Product", src: "/assets/cookies.jpg", description: "" },
+     { title: "Rintik Hijau", src: "/assets/rain-leaf.jpg", description: "Tetesan hujan berdiam lembut di permukaan daun hijau, merekam keheningan alam setelah rinai yang reda" },
   ];
 
   // Fungsi untuk membuka pop-up dengan indeks gambar tertentu
