@@ -3,7 +3,7 @@
 export function Herosection() {
   return (
 
- <div className="w-screen h-screen flex flex-col justify-center bg-[url('/assets/hero.png')] bg-cover bg-center bg-fixed text-white">
+ <div className="w-screen h-screen flex flex-col justify-center bg-[url('/assets/hero.webp')] bg-cover bg-center bg-fixed text-white">
     <div className="container mx-auto px-10">
       <h2 className="font-bold text-5xl lg:text-9xl ">
         Let's create
