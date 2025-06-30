@@ -26,7 +26,7 @@ export default function Profile() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white text-gray-700 p-10 flex flex-col grid-cols-2 items-center">
+    <div className="min-h-screen bg-white text-gray-700 p-10 flex flex-col grid-cols-2 items-center overflow-x-hidden">
       {/* Hero Section */}
         <div className={`flex justify-center fade-in ${isVisible[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-700`}>
           <img src="/assets/hero-4.png" alt="Naufal Fachry Abdullah" className="w-100 h-auto md:w-auto md:h-90 rounded-full shadow-2xl" />
