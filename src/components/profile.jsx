@@ -45,30 +45,30 @@ export default function Profile() {
       </div>
 
        {/* Social Links */}
-      <div className="flex gap-4 mt-5">
+      <div className="flex gap-1 mt-5 md:gap-4">
       {/* LinkedIn */}
       <a href="https://www.linkedin.com/in/naufal-fachry-abdullah/" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/linkedin.png" alt="LinkedIn" className="w-10 h-10 hover:scale-110 transition" />
+        <img src="/assets/linkedin.png" alt="LinkedIn" className="w-8 h-8 hover:scale-110 transition" />
       </a>
 
       {/* GitHub */}
       <a href="https://github.com/naufal76" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/github.png" alt="GitHub" className="w-10 h-10 hover:scale-110 transition" />
+        <img src="/assets/github.png" alt="GitHub" className="w-8 h-8 hover:scale-110 transition" />
       </a>
 
       {/* Instagram */}
       <a href="https://www.instagram.com/naufalfachry_/" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/instagram.png" alt="Instagram" className="w-10 h-10 hover:scale-110 transition" />
+        <img src="/assets/instagram.png" alt="Instagram" className="w-8 h-8 hover:scale-110 transition" />
       </a>
 
       {/* YouTube */}
       <a href="https://www.youtube.com/@naufal_fachry" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/youtube.png" alt="YouTube" className="w-10 h-10 hover:scale-110 transition" />
+        <img src="/assets/youtube.png" alt="YouTube" className="w-8 h-8 hover:scale-110 transition" />
       </a>
 
       {/* Behance */}
       <a href="https://www.behance.net/naufalfachry" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/behance.png" alt="Behance" className="w-10 h-10 hover:scale-110 transition" />
+        <img src="/assets/behance.png" alt="Behance" className="w-8 h-8 hover:scale-110 transition" />
       </a>
     </div>
 
