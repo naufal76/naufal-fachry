@@ -33,14 +33,14 @@ export default function Profile() {
         </div>
        <div className={`flex flex-col mb-5 justify-center text-center fade-in ${isVisible[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-900`}>
         <h1 className="text-5xl font-bold mt-8 mb-2">Naufal Fachry Abdullah</h1>
-        <p className="text-lg text-gray-500">Graphic Designer & Content Creation</p>
+        <p className="text-lg text-gray-500">Graphic Designer & Content Creator</p>
       </div>
 
       {/* About Me */}
       <div className={`max-w-3xl text-center mb-10 fade-in ${isVisible[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-600`}>
         <p className="text-gray-500 leading-relaxed">
           Hi! I’m a passionate Graphic Designer and Content Creator who loves turning ideas into powerful visuals and stories.
-          With experience in branding, digital content, and UI/UX design, I enjoy exploring new ways to engage audiences.
+          With experience in branding, logo design and digital content, I enjoy exploring new ways to engage audiences.
         </p>
       </div>
 
@@ -78,7 +78,6 @@ export default function Profile() {
           <h2 className="text-xl font-bold mb-4">Graphic Design</h2>
           <ul className="text-gray-700 space-y-2">
             <li>- Branding & Logo Design</li>
-            <li>- UI/UX Design</li>
             <li>- Typography & Illustration</li>
             <li>- Photoshop, Illustrator, Figma</li>
           </ul>
@@ -88,15 +87,14 @@ export default function Profile() {
           <ul className="text-gray-700 space-y-2">
             <li>- Short & YouTube Content</li>
             <li>- Visual Storytelling</li>
-            <li>- Premiere Pro, After Effect</li>
+            <li>- Premiere Pro, After Effect, CapCut</li>
           </ul>
         </div>
         <div className={`bg-gray-200 p-6 rounded-lg shadow-lg hover:scale-105 transition ${isVisible[0] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-1000`}>
           <h2 className="text-xl font-bold mb-4">Front-End Development</h2>
           <ul className="text-gray-700 space-y-2">
-            <li>- React Vite & Tailwind CSS</li>
+            <li>- Next Js & Tailwind CSS</li>
             <li>- Responsive & Interactive UI</li>
-            <li>- Animation & Parallax Effects</li>
             <li>- shadcn/ui for Clean UI</li>
           </ul>
         </div>
@@ -111,7 +109,7 @@ export default function Profile() {
           <span className="px-4 py-2 bg-gray-200 rounded-md hover:scale-105 transition">Figma</span>
           <span className="px-4 py-2 bg-gray-200 rounded-md hover:scale-105 transition">CapCut</span>
           <span className="px-4 py-2 bg-gray-200 rounded-md hover:scale-105 transition">Premiere Pro</span>
-          <span className="px-4 py-2 bg-gray-200 rounded-md hover:scale-105 transition">React Vite</span>
+          <span className="px-4 py-2 bg-gray-200 rounded-md hover:scale-105 transition">Next Js</span>
           <span className="px-4 py-2 bg-gray-200 rounded-md hover:scale-105 transition">Tailwind CSS</span>
           <span className="px-4 py-2 bg-gray-200 rounded-md hover:scale-105 transition">JavaScript</span>
         </div>
